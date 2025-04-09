@@ -10,10 +10,10 @@
     class Test{
         
     }
-    // $a = 10; // integer
-    // echo $a. "<br>";
-    // $b = 10.5; // float
-    // echo $b. "<br>";
+    $a = 10; // integer
+    echo $a. "<br>";
+    $b = 10.5; // float
+    echo $b. "<br>";
     // $c = "Hello"; // string
     // echo $c. "<br>";
     // $d = true; // boolean

@@ -12,6 +12,11 @@
    define("PI",3.14);
    echo PI;
    echo "<br>";
+   $r = 10.5;
+   $area = PI * $r * $r;
+   echo  "Area of circle is:  " .$area . "<br>";
+   $c = "Hello";
+   echo $c . "<br>";
    
    
    ?>

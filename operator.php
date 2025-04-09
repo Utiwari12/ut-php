@@ -6,8 +6,17 @@
     <title>Operator</title>
 </head>
 <body>
+
+<!-- Operator	Name	Example	Result	
++	Addition	$x + $y	Sum of $x and $y	
+-	Subtraction	$x - $y	Difference of $x and $y	
+*	Multiplication	$x * $y	Product of $x and $y	
+/	Division	$x / $y	Quotient of $x and $y	
+%	Modulus	$x % $y	Remainder of $x divided by $y	
+**	Exponentiation	$x ** $y	Result of raising $x to the $y'th power -->
+
     <?php
-    $a = 10;
+    $a = 30;
     $b = 20;
     $c = $a + $b;
     echo $c;
@@ -56,12 +65,12 @@
     //  var_dump(--$a);
     //  echo "<br>";
 
-    //  echo '== Alphabetic strings =='. PHP_EOL;
-    //  $s = 'W';
-    //  for ($n=0; $n <6; $n++) { 
-    //     echo ++$s . PHP_EOL;
-    //     # code...
-    //  }
+     echo '== Alphabetic strings =='. PHP_EOL;
+     $s = 'W';
+     for ($n=0; $n <6; $n++) { 
+        echo ++$s . PHP_EOL;
+        # code...
+     }
     ?>
 </body>
 </html>

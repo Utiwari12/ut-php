@@ -15,6 +15,18 @@
     //   echo "<br>";
       echo ($a > $b);
       echo "<br>";
+
+      $x = 10; //int
+      $y = "10";  //string
+      $z = 10;  //int
+      if (($x ===$y)==$z) {
+        echo "Hello";
+
+        # code...
+      }else {
+        echo "Bye";
+      }
+      echo "<br>";
     ?>
 </body>
 </html>

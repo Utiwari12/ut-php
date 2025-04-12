@@ -10,7 +10,7 @@
 <div class="card">
         <h2>Login</h2>
         <!-- <form action="checklogin.php" method="post"> -->
-        <form action="" method="post">
+        <form action="page1.php" method="post">
             <label for="username">Username</label>
             <input type="text" name="username" id="" placeholder="Username">
             <label for="password">Password</label>
@@ -27,14 +27,14 @@
         // echo "Username is: " .$username;
         // echo "<br>";
         // echo "Password: " . $password;
-        if (strcmp($username, "admin") == 0 && strcmp($password, "admin") == 0) {
-            // echo "<font color='green'>Login successful</font>";
-            // to redirect to another page after login
-            header("Location: array.php");
-        } else {
-            echo "<font color='red'>Login failed</font>";
-            # code...
-        }
+        // if (strcmp($username, "admin") == 0 && strcmp($password, "admin") == 0) {
+        //     // echo "<font color='green'>Login successful</font>";
+        //     // to redirect to another page after login
+        //     header("Location: array.php");
+        // } else {
+        //     echo "<font color='red'>Login failed</font>";
+        //     # code...
+        // }
     }
         ?>
 </body>

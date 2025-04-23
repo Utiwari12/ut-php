@@ -14,6 +14,7 @@
     "",
     "students" 
    );
+//    echo "Connection successful<br>";
    echo "<center><h1>Search Student</h1></center>";
    $sql = "SELECT * FROM `studentinfo`";
    $record = mysqli_query($mycon,$sql);

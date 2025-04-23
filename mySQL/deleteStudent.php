@@ -64,6 +64,7 @@
             //echo "Record found <br>";
             session_start();
             $_SESSION['id'] = $id;
+           
             echo "<table border=1>";
             echo "<tr>
             <th>ID</th>
@@ -87,6 +88,7 @@
             echo "</table>";
             $sql = "DELETE FROM `studentinfo` WHERE `id` = '$id'";
             $result = mysqli_query($mycon,$sql);
+            
            } else {
             echo "Record not found <br>";
            }

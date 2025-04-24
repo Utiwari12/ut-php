@@ -11,6 +11,7 @@ $result = $getStudensts->fetchAll(PDO::FETCH_ASSOC);
 echo "<table border = '1'>";
     foreach ($result as $student) {
      echo "<tr> 
+          <td>".$student['id']. "</td>
           <td>".$student['stname']. "</td>
           <td>".$student['course']. "</td>
           <td>".$student['fees']. "</td>

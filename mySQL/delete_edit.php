@@ -22,6 +22,10 @@ echo "<table border = '1'>";
               </form>
              </td>
 
+             <td>
+              <a href='update.php?id=".$student['id']."'>Edit</a>
+             </td>
+
 
       </tr>";
      
